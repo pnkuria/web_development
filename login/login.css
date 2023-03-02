@@ -1,0 +1,40 @@
+body {
+    background-image: url(images/OIP.jpg);
+    background-size: cover;
+}
+
+
+
+.top-div {
+    border: solid;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    width: 650px;
+    height: 450px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.title {
+    font-size:50px;
+    text-align: center;
+
+}
+
+.credentials {
+    padding:15px ;
+    font-size: 15px;
+
+}
+
+#name {
+    margin-bottom: 40px;
+}
+
+#sign-in {
+    margin-top: 40px;
+    font-size: 30px;
+    background-color: skyblue;
+}
