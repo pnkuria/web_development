@@ -1,0 +1,17 @@
+body {
+    background-color: yellowgreen;
+}
+
+table {
+    border: double;
+    
+}
+
+.head {
+    border: dashed;
+    border-color: blue;
+}
+
+td {
+    color: blue;
+}
