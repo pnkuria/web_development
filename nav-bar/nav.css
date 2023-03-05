@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(rgba(5,0,136,0.5), rgba(5,0,136,0.5)), url(/images/joshua-earle-EqztQX9btrE-unsplash.jpg); 
+    background-attachment: cover;
+}
+
+.sidebar {
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+li {
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.sidebar:hover{
+    background-color: black;
+    color: white;
+}
+
+.rounded-image {
+    margin: 10px;
+    padding-left: 15px;
+    height: 120px;
+    width: 120px;  
+    border-radius: 100%;
+    display: block;
+    overflow-y: none;
+}
+
+img{
+    border-radius: 50px;
+}
+
+.content{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+    color: white;
+}
+
