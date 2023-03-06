@@ -1,6 +1,6 @@
 
 body{
-    background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)), url(/images/joshua-earle-EqztQX9btrE-unsplash.jpg);
+    background-color: gray;
     align-items: baseline;
 }
  
@@ -12,7 +12,7 @@ body{
     height: 400px;
     width: 1000px;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 150px;
     font-size: 25px;
     background-color: white;
 }
@@ -31,9 +31,10 @@ a{
     text-decoration: none;
 }
 
-#link{
+.link{
     text-align: center;
     font-size: 25px;
+    margin-top: 5px;
 }
 
 .btn{
@@ -48,4 +49,14 @@ a{
 
 #link{
     align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+
+}
+.link #link:hover{
+    background-color: white;
+    color: black;
 }
