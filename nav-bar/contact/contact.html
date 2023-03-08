@@ -2,20 +2,38 @@
 <html>
     <head>
         <title>Contact</title>
-        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="contact-2.css">
+        <script src="https://kit.fontawesome.com/f71a79b01e.js" crossorigin="anonymous"></script>
     </head>
     <body>
     <div>
 
     </div>
-    <div class="contact">
-        <h2>Contact</h2>
-        <p>To contact us:</p>
-        <input type="text" placeholder="Name" class="credentials" id="name"><br>
-        <input type="email" placeholder="e-mail" class="credentials"><br>
-        <input type="text" placeholder="message" class="message"><br>
-        <button class="btn">Send!</button>
-    </div> 
+    <form>
+        <div class="contact">
+            <div class="head">
+                <h2>Contact</h2>
+                <p>To contact us:</p>
+            </div>
+            <div class="input-box">
+                <div class="credentials">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name" class="credentials" id="name">
+                </div>
+                <div class="credentials">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="e-mail" class="credentials">
+                </div>
+                <div class="message credentials">
+                    <i class="fa-solid fa-message"></i>
+                    <input type="text" placeholder="message" class="message">
+                </div>
+            </div>
+            <div class="btn">
+                <button>Send!</button>
+            </div>
+        </div> 
+    </form>
     <div class="link">
         <a href="/nav-bar/nav.html" id="link">Go back</a>
     </div>       

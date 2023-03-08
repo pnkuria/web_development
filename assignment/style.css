@@ -84,3 +84,14 @@ td{
     border: 2px solid black;
     border-style: solid;
 }
+
+.contact-me{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+
+.contact-me i{
+    margin: 3px;
+    
+}

@@ -11,30 +11,39 @@ body {
     border-radius: 30px;
     margin: auto;
     text-align: center;
-    width: 650px;
+    width: 550px;
     height: 450px;
     padding: 10px;
     margin-top: 70px;
 }
 
+.form1{
+    display: block;
+    position: absolute;
+    outline: 0;
+    border: 0;
+    padding: 35px;
+
+
+}
+
+.credentials{
+    align-items: center;
+    width: 85%;
+    height: 30px;
+    padding: 15px;
+    margin: 15px;
+}
+
 .title {
     font-size:50px;
     text-align: center;
-
-}
-
-.credentials {
-    padding:15px ;
-    font-size: 15px;
-
-}
-
-#name {
-    margin-bottom: 40px;
 }
 
 #sign-in {
     margin-top: 40px;
     font-size: 30px;
     background-color: skyblue;
+    border-radius: 18px;
+    align-items: center;
 }
