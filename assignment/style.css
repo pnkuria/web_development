@@ -38,8 +38,8 @@ body {
     justify-content: flex-start;
     color: white;
 
-
 }
+
 .slide{
     margin-bottom: 20px;
 }
@@ -57,6 +57,9 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
+.home-text{
+    margin-left: 300px;
+}
 .home-text h1{
     font-size: 50px;
     font-weight: 700;
@@ -68,6 +71,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.1;
+
 }
 h1 {
     text-underline-position:below;
@@ -133,7 +137,7 @@ h1 {
     display:inline-block;
     font-size: 30px;
     position: flex;
-    margin: 150px;
+    margin-top: 300px;
 }
 
 
@@ -270,10 +274,13 @@ tr{
     
 }
 .profile{
-    margin-left: 800px;
-    margin-top: -400px;
-
-
+    margin-left: 100px;
+    margin-top: -500px;
+}
+.back {
+    margin-left: 780px;
+    margin-top: -380px;
+    z-index: -1;
 }
 
 #skills{
@@ -316,7 +323,7 @@ tr{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -333,6 +340,7 @@ tr{
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+    color: white;
   }
   
   /* Caption text */
@@ -391,14 +399,15 @@ tr{
     color: orange;
 }
 
+
 .contact{
     justify-content: center;
     width: 1000px;
-    height: 700px;
+    height: 600px;
     box-shadow: 0 8px 16px 0 grey;
     column-count: 2;
-    padding: 7px;
-    column-rule-style: dotted;
+    padding: 10px;
+    column-rule-style:groove;
     border-radius: 30px;
     margin-top: 20px;
 }
