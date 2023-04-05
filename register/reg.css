@@ -1,0 +1,13 @@
+.contact{
+    margin-top: 35px;
+    padding: 5px;
+}
+
+input{
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    margin: 10px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
