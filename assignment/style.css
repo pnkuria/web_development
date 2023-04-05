@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+
     
 }
 header{
@@ -135,9 +136,9 @@ h1 {
 .content{
     margin-left: 80px;
     display:inline-block;
-    font-size: 30px;
+    font-size: 20px;
     position: flex;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 
@@ -231,6 +232,7 @@ p{
 
 #div2 {
     width: 600px;
+    height: 280px;
     margin-left: 600px;
     box-shadow: 0 8px 16px 0 grey;
     padding: 15px;
@@ -287,7 +289,7 @@ tr{
     box-shadow: 0 8px 16px 0 #f8f9fa;
     padding: 6px;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     
 }
 
@@ -305,7 +307,7 @@ tr{
 
 .slideshow-container {
     max-width: 800px;
-    max-height: 400px;
+    max-height: 380px;
     position: relative;
     margin: auto;
   }
@@ -392,13 +394,17 @@ tr{
 
 .column a{
     text-decoration: none;
+    color: #000;
+
 }  
 
 .column:hover button{
-    background-color: black;
+    background-color: gray;
     color: orange;
 }
-
+.column:hover a{
+    color: white;
+}
 
 .contact{
     justify-content: center;
